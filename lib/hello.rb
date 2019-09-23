@@ -1,6 +1,7 @@
 require "pry"
 
 def hello_t(array)
+  binding.pry
   i = 0
   while i < array.length
     yield array[i]
